@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-img {
+.img_portfolio {
   background-color: #333;
   border-radius: 50%;
   margin-bottom: 10px;
@@ -30,7 +30,7 @@ p {
   color: #333;
 }
 
-ul {
+.profile_list {
   list-style: none;
   padding: 0;
   display: flex;

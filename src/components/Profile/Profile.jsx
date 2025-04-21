@@ -10,13 +10,19 @@ export default function Profile({
   return (
     <div className={style.container}>
       <div className={style.box_profil}>
-        <img src={image} alt="User avatar" width={220} height={220} />
+        <img
+          className={style.img_portfolio}
+          src={image}
+          alt="User avatar"
+          width={220}
+          height={220}
+        />
         <p className={style.text}>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
       </div>
 
-      <ul>
+      <ul className={style.profile_list}>
         <li>
           <span>Followers</span>
           <span>{followers}</span>
